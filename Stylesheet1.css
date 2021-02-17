@@ -1,0 +1,77 @@
+#titulopaginaweb{
+	background: -webkit-linear-gradient(top, blue, red);
+	text-align: center;
+	width: 250px;
+	font-size: 70px;
+	border-radius: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
+}
+
+#headerdelbody{
+	background-color: yellow;
+}
+#logo{
+	width: 125px;
+	height: 150px;
+	border-radius: 35px;
+	margin-top: -75px;
+	position: left;
+}
+
+#menuconsubmenus {
+	margin-top: -45px;
+	float: center;
+	margin-left: -550px;
+}
+
+* {
+	margin:0px;
+	padding:0px;
+}
+
+#header {
+	margin:auto;
+	width:500px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+ul, ol {
+	list-style:none;
+}
+
+.nav > li {
+	float:left;
+}
+
+.nav li a {
+	background-color:#000;
+	color:#fff;
+	text-decoration:none;
+	padding:10px 12px;
+	display:block;
+}
+
+.nav li a:hover {
+	background-color:#434343;
+}
+
+.nav li ul {
+	display:none;
+	position:absolute;
+	min-width:140px;
+}
+	
+.nav li:hover > ul {
+	display:block;
+}
+
+.nav li ul li {
+	position:relative;
+}
+
+.nav li ul li ul {
+	right:-140px;
+	top:0px;
+}
